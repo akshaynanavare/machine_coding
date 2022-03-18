@@ -1,0 +1,48 @@
+{
+    "Player" : [
+        {
+            "Name" : "Akshay"
+        }
+    ],
+    "Snake" : [
+        {
+            "Start" : 55,
+            "End" : 10
+        },
+        {
+            "Start" : 30,
+            "End" : 20
+        },
+        {
+            "Start" : 98,
+            "End" : 40
+        },
+        {
+            "Start" : 80,
+            "End" : 33
+        }
+    ],
+    "Ladder" :  [
+        {
+            "Start" : 2,
+            "End" : 10
+        },
+        {
+            "Start" : 20,
+            "End" : 55
+        },
+        {
+            "Start" : 36,
+            "End" : 49
+        },
+        {
+            "Start" : 21,
+            "End" : 60
+        },
+        {
+            "Start" : 50,
+            "End" : 60
+        }
+    ],
+    "Dice" : 1
+}
