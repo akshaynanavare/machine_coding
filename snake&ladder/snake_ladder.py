@@ -30,7 +30,7 @@ class SnakeLadderGame :
         
     def play_game(self) :
         
-        while(len(self.Players) != 0) :
+        while(len(self.Players) != 1) :
             player = self.Players.pop(0)
             print("Player's turn :" , player.Name)
 
@@ -64,6 +64,7 @@ class SnakeLadderGame :
 
 
         print("Game finished !!!")
+        print("You looser : %s" % self.Players[0].Name)
 
 game = SnakeLadderGame("gameconfig.json")
 game.play_game()           
